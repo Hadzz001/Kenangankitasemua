@@ -2,6 +2,10 @@ nav {
   position: fixed;
   background-color: green;
   padding: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -101,6 +105,10 @@ button {
   margin: auto;
   text-decoration: none;
   padding: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   border: 3px;
   border-radius: 4px;
   color: white;
@@ -114,6 +122,7 @@ a {
   border: 3px;
   border-radius: 4px;
   color: white;
+  text-size: 30px;
 }
 .g {
   text-align: center;
