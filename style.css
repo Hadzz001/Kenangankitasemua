@@ -26,6 +26,7 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
+  text-size: 3m;
 }
 body {
   font-size: 2vw;
@@ -86,13 +87,13 @@ button {
   display: block;
   margin: auto;
   text-decoration: none;
-  padding: 5px;
-  padding-bottom: 10px;
+  padding: 5m;
+  padding-bottom: 10m;
   padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  padding-right: 10m;
+  padding-top: 10m;
   border: 3px;
-  border-radius: 4px;
+  border-radius: 4m;
   color: white;
 }
 a {
@@ -100,8 +101,8 @@ a {
   display: block;
   margin: auto;
   text-decoration: none;
-  padding: 5px;
-  border: 3px;
+  padding: 5m;
+  border: 3m;
   border-radius: 4px;
   color: white;
   text-size: 30px;
