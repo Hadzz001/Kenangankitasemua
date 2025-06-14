@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" href="style.css">
+  <title>Kenangan kelas 94</title>
   <head>
     <nav>
   <ul>
     <li><a href="#" onclick="location.reload()">Foto</a></li>
-    <li><a href="#" id="video">Video</a></li>
+    <li><a href="https://Website110/Kenangankitasemua/Video.html" id="video">Video</a></li>
   </ul>
   </nav>
   <br><br><br><br>
     <h1 class="j">Welcome to<br>class 94 memories</h1>
     <h2 class="j">😌💕🌹🥀</h2>
     <br><br><br>
+    <audio control autoplay>
+  <source src="sad.mp3" type="audio/mp3">
+    </audio>
     <h1 class="j">----------------------------------</h1>
     <body>
-      <button onclick="location.reload()" id="tombol">Refresh</button>
-      <script>
-        var tombol = document.getElemenById(`tombol`);
-        tombol.click();
-        };
-        function video() {
-          video.innerHTML = `
-          
-          `
-        }
-      </script>
-<audio control autoplay>
-  <source src="sad.mp3" type="audio/mp3">
-  </audio>
+      <button id="tombol" onclick="alert(`Tombol terklik!`)" autofocus>Refresh</button>
 <h2 class="f">Foto Memories</h2>
 <img src="1.jpg">
 <br><br>
@@ -67,7 +58,11 @@
 <h5 class="z" >👇Klik aja nanti kalian diarahkan ke whatsapp👇</h5>
   <button href="https://wa.me/qr/6UVAWJ7YZ2P5L1" >Ke Whatsapp</button> 
   <br><br>
-
+      <script>
+       document.getElemenById(`tombol`).focus();
+      document.getElemenById(`Tombol`).click();
+        };
+  </script>
     </body>
   </head>
 </html>
