@@ -4,8 +4,8 @@
   <head>
     <nav>
   <ul>
-    <li><a href="https://hadzz001.github.io/Kenangankitasemua/foto.html">Foto</a></li>
-    <li><a href="https://hadzz001.github.io/Kenangankitasemua/Video.html">Video</a></li>
+    <li><a href="#" onclick="location.reload()">Foto</a></li>
+    <li><a href="#" id="video">Video</a></li>
   </ul>
   </nav>
   <br><br><br><br>
@@ -14,13 +14,15 @@
     <br><br><br>
     <h1 class="j">----------------------------------</h1>
     <body>
-      <button onclick="refresh()" id="tombol" >Refresh</button>
+      <button onclick="location.reload()" id="tombol">Refresh</button>
       <script>
-        function refresh() {
-          location.reaload();
-        }
         var tombol = document.getElemenById(`tombol`);
         tombol.click();
+        };
+        function video() {
+          video.innerHTML = `
+          
+          `
         }
       </script>
 <audio control autoplay>
