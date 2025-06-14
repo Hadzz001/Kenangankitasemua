@@ -110,3 +110,10 @@ a {
 .g {
   text-align: center;
 }
+
+.klik {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
