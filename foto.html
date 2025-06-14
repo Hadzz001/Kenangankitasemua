@@ -62,9 +62,16 @@
       </a>
   <br><br>
       <script>
-       function
       document.getElemenById(`Tombol`)location.reload();
-        };
+        });
+        document.addEventListener('visibilitychange', function() {
+  if (document.hidden) {
+    document.querySelector('audio').pause();
+  }
+});
+        window.addEventListener('load', function() {
+  document.querySelector('audio').play();
+});
   </script>
     </body>
   </head>
